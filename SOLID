@@ -1,1 +1,7 @@
 https://medium.com/successivetech/s-o-l-i-d-the-first-5-principles-of-object-oriented-design-with-php-b6d2742c90d7
+SOLID - first 5 principles of OOD w/ php
+S - Single Responsibility Principle (SRP or syrup)
+O - Open/closed principle (OCP)
+L - Liskov Sub Principle (LSP)
+I - Interface Segregation principle (ISP)
+D - Dependency inversion principle (DIP)
