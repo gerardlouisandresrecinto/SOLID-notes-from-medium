@@ -5,3 +5,12 @@ O - Open/closed principle (OCP)
 L - Liskov Sub Principle (LSP)
 I - Interface Segregation principle (ISP)
 D - Dependency inversion principle (DIP)
+
+1. SRP - single responsibility for class/module
+class/module should solve only 1 problem
+example of Logger class: break SRP b/c it collected and saved logs.
+have a logger class and logStorage class so each has 1 responsibility
+
+2. OCP - well-tested class should not be modified when new feature needs to be built
+need to extend class/interface in a new class to add new features
+“Software entities … should be open for extension, but closed for modification.”
