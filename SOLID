@@ -14,3 +14,17 @@ have a logger class and logStorage class so each has 1 responsibility
 2. OCP - well-tested class should not be modified when new feature needs to be built
 need to extend class/interface in a new class to add new features
 “Software entities … should be open for extension, but closed for modification.”
+
+3. LSP - rectangle square problem
+$rectangleTest->testArea(2,3); // gives 6 as expecated
+$squre = new Square();
+$rectangleTest = new AreaTester($squre);
+$rectangleTest->testArea(2,3); // gives 9 expecated is 6
+"The following are the conditions to avoid LSP violation.
+Method signatures must match and accept equal no of the parameter as the base type
+The return type of the method should match to a base type
+Exception types must match to a base class"
+
+4. ISP - “Many client-specific interfaces are better than one general-purpose interface.”
+
+5. DIP - "Dependency Inversion Principle: According to this principle higher level classes should not directly depend on lower level classes but abstractions. It means that a higher level class should not need to know the implementation details of the low-level class, the low-level class should be hidden behind an abstraction."
